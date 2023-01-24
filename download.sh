@@ -48,7 +48,7 @@ mv coling2018_fake-news-challenge/data/fnc-1/corpora/ARC/arc_stances_train.csv $
 mv coling2018_fake-news-challenge/data/fnc-1/corpora/ARC/arc_stances_test.csv $DATA_DIR/ARC
 rm -rf coling2018_fake-news-challenge
 
-## Download FNC-1
+## Download FNC-1 (&check;)
 mkdir $DATA_DIR/FNC-1
 git clone https://github.com/FakeNewsChallenge/fnc-1.git
 mv fnc-1/README.md $DATA_DIR/FNC-1
@@ -73,7 +73,7 @@ git clone https://github.com/CogComp/perspectrum.git
 mv perspectrum/data/dataset/* $DATA_DIR/PERSPECTRUM
 rm -rf perspectrum
 
-## Download SCD
+## Download SCD (X)
 mkdir $DATA_DIR/SCD
 wget https://www.hlt.utdallas.edu/~saidul/stance/stance.zip
 mv stance.zip $DATA_DIR/SCD
